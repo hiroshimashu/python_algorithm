@@ -1,4 +1,4 @@
-## a way to calculate hash
+## a way to calculate hash for character
 
 def hash(astring, tablesize):
     sum = 0
@@ -6,4 +6,3 @@ def hash(astring, tablesize):
         sum = sum + ord(astring[pos])
 
     return sum % tablesize
-
