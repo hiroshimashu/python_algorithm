@@ -18,6 +18,14 @@
 # s - 1
 
 
+## TO DO  
+## How to detect adjacent letters? 
+## If there are bomb, there are two special kind of cases:
+## Case1: 
+##     aa*aa -> a___a
+## Case2:
+##     **aa** -> _____     
+
 def alphabet_war(fight):
     LEFT_SIDE = {"m": 4,"q": 3, "d": 2, "z": 1}
     RIGHT_SIDE = {"w": 4,"p": 3, "b": 2, "s": 1}
@@ -41,4 +49,3 @@ def alphabet_war(fight):
 
 result1 = alphabet_war("s*zz")
 print(result1)
-
